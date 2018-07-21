@@ -1,15 +1,9 @@
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #F5937D;
-  text-align: right;
   }
 
 p, h2, h3 {
   font-family: "Raleway", sans-serif;
   color: #3F3D3C;
-  text-align: left;
   }
-
-h2 {
-  font-weight: 200;
- }
