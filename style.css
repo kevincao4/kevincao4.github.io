@@ -1,4 +1,14 @@
 h1 {
-  colour: red;
+  color: red;
   text-align: right;
+  }
+
+h2 {
+  color: red;
+  text-align: left;
+  }
+
+h3 {
+  color: red;
+  text-align: left;
   }
