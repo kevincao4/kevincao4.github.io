@@ -7,3 +7,52 @@ p, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: #3F3D3C;
   }
+
+#wrap {
+  left: 80px;
+  position: relative;
+}
+
+.flex-grid h1 {
+	font-size: 20px; 
+	border-bottom:1px solid black; 
+	padding-bottom:10px;
+    color: white;
+}
+
+.flex-grid h2 {
+	font-weight:bold;
+	font-size:16px; 
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid .col {
+  flex: 1;
+}
+
+.flex-grid { 
+  margin: 0 0 20px 0;
+}
+.col {
+  padding: 20px;
+  border:1px solid white;
+  margin:10px;
+  background:#F5937D;
+  color:white;
+  font-size: 14px; 
+  line-height:16px; 
+  box-sizing:border-box;
+}
+
+@media (max-width: 900px) {
+  .flex-grid{
+    display: block;
+  }
+    .col {
+      width: 100%;
+      margin: 0 0 15px 0;
+    }
+  }
