@@ -1,5 +1,8 @@
 # kev-cao.github.io
-First attempt at making a personal website! (2018)
+
+15-10-2018
+
+First attempt at making a personal website!
 
 23-05-21
 
